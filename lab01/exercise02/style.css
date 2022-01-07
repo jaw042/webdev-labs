@@ -1,3 +1,4 @@
+@import url(https://fonts.google.com/specimen/Open+Sans+Condensed);
 body * {
     box-sizing: border-box;
 }
@@ -21,12 +22,20 @@ section{
     padding-bottom: 20px;
 }
 
+h2{ 
+    font-family: 'Open Sans Condensed';
+}
+
 h2, p, button{
     margin-left: 20px;
     margin-right: 20px;
 }
 
 img{
+    width: 100%;
+}
+
+iframe{
     width: 100%;
 }
 
