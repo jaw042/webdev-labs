@@ -37,6 +37,7 @@ img{
 
 iframe{
     width: 100%;
+    min-height: 300px;
 }
 
 /* Tablet Media Query */
