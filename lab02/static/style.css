@@ -1,0 +1,64 @@
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+header {
+    padding: 3vh;
+    background: #EEE;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    width: 250px;
+    list-style-type: none;
+    padding: 0px;
+    display: flex;
+    justify-content: space-between;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    width: 400px;
+    border: 1px solid #000;
+    margin: 20px;
+    height: 800px;
+}
+
+img{
+    display: flex;
+    align-content: center;
+    align-items: center;
+    height: 400px;
+}
+
+#restaurant_name{
+    display: flex;
+    justify-content: center;
+}
+
+#info {
+    margin: 5%;
+}
+p{
+    padding: 5%;
+}
+
+#main_section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+@media only screen and (max-width: 1000px) {
+    /* Media queries go here */
+}
+
+@media only screen and (max-width: 600px) {
+    /* Media queries go here */
+}
